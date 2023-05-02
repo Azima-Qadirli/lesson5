@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.one{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    right: 40px;
+}
+.two{
+    background-color:blue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.three{
+    background-color: brown;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.four{
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 20px;
+}

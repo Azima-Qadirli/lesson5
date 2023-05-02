@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 400px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+#static1st{
+    width: 100px;
+    height: 60px;
+    background-color: navajowhite;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+}
+#rela{
+    width: 100px;
+    height: 60px;
+    background-color: aqua;
+    margin-right: 20px;
+    padding-top: 40px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    left: 120px;
+    bottom: 20px;
+}
+#static2nd{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: navajowhite;
+    position: absolute;
+    right: 50px;
+}
+.container2{
+    width: 400px;
+    height: 100px;
+    background-color: lightblue;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#static1{
+    width: 100px;
+    height: 60px;
+    background-color: navajowhite;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding-top: 40px;
+    text-align: center;
+    display: inline-block;
+}
+#static2{
+    width: 100px;
+    height: 60px;
+    background-color: navajowhite;
+    text-align: center;
+    padding-top: 40px;
+    display: inline-block;
+}
+.container3rd{
+    width: 400px;
+    height: 100px;
+    background-color: lightblue;
+    display: inline-block;
+}
+#static3rd{
+    width: 100px;
+    height: 60px;
+    background-color: navajowhite;
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#fixed{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 40px;
+    text-align: center;
+    background-color:red;
+}
+#static4th{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: navajowhite;
+}
